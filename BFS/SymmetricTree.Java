@@ -6,6 +6,13 @@
  *     TreeNode right;
  *     TreeNode(int x) { val = x; }
  * }
+ 
+ Different Test Cases are:
+    [1,2,2,3,4,4,3]
+    []
+    [1,2,3]
+    [1,null,2,3]
+    [5,4,7,3,null,2,null,-1,null,9]
  */
 class Solution {
     public boolean isSymmetric(TreeNode root) {
